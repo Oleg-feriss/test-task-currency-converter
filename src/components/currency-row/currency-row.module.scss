@@ -1,0 +1,39 @@
+.group {
+  background: rgb(70, 70, 69);
+  display: grid;
+  grid-template-columns: 10rem 8rem;
+  border-radius: 1.5rem;
+}
+
+.inputValue, 
+.currencySelect {
+  background: none;
+  border: 0;
+  color: white;
+  padding: 1.5rem 0;
+}
+
+.inputValue {
+  padding-left: 1.5rem;
+  color: rgb(160, 224, 92) ;
+}
+
+.inputValue::-webkit-outer-spin-button,
+.inputValue::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.inputValue, 
+.currencySelect:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.currencySelect {
+  text-align: end;
+}
+
+.currensyOption {
+  color: black;
+  text-align: center;
+}
